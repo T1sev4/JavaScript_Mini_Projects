@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        onclick="showModalWindow(this)"
+        src="img/img1.webp"
+        alt="Not found"
+      />
+      <img
+        onclick="showModalWindow(this)"
+        src="img/img2.jpeg"
+        alt="Not found"
+      />
+      <img
+        onclick="showModalWindow(this)"
+        src="img/img3.jpeg"
+        alt="Not found"
+      />
+      <img
+        onclick="showModalWindow(this)"
+        src="img/img4.webp"
+        alt="Not found"
+      />
+      <img
+        onclick="showModalWindow(this)"
+        src="img/img5.jpeg"
+        alt="Not found"
+      />
+      <img
+        onclick="showModalWindow(this)"
+        src="img/img6.webp"
+        alt="Not found"
+      />
+    </div>
+
+    <div class="modal-window">
+      <div class="content">
+        <button onclick="closeModalWindow()" id="close-btn">x</button>
+        <img
+          id="modalImg"
+          src="https://d39l2hkdp2esp1.cloudfront.net/img/photo/159090/159090_00_2x.jpg"
+          alt="Not found"
+        />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
