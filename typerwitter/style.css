@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  background-color: black;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer {
+  font-size: 100px;
+  color: #fff;
+  text-transform: uppercase;
+}
