@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.counter-item{
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
