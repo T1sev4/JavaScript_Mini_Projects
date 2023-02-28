@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.content img {
+  width: 100%;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+.button {
+  background: none;
+  border: 2px solid black;
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin: 20px 10px;
+  font-size: 24px;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.title {
+  font-size: 40px;
+}
+.description {
+  font-size: 20px;
+  word-spacing: 10px;
+  margin-top: 20px;
+}
+.information {
+  margin-top: 30px;
+  display: none;
+}
+.active-info {
+  display: block;
+}
+.active-btn {
+  background-color: #000;
+  color: #fff;
+}
