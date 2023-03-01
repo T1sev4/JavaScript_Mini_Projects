@@ -52,7 +52,7 @@ for (let i = 0; i < data.length; i++) {
 }
 items.innerHTML = output;
 categories = [...new Set(categories)];
-let categ = `<button class="category-btn" onclick = "filterPost('all')">все</button>`;
+let categ = `<button class="category-btn active-btn" onclick = "filterPost('all')">все</button>`;
 for (let i = 0; i < categories.length; i++) {
   categ += `
         <button class="category-btn" onclick = "filterPost('${categories[i]}')"> ${categories[i]}</button>
